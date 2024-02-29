@@ -49,11 +49,10 @@ const EarthquakeMap = () => {
     setSelectedDate(event.target.value)
   }
 
-  // カスタムアイコンを作成
   const customIcon = L.icon({
-    iconUrl: '../images/shingentimark.jpg', // アイコンの URL
-    iconSize: [30, 30], // アイコンのサイズ
-    iconAnchor: [15, 30] // アイコンのアンカー位置
+    iconUrl: '../images/shingentimark.jpg',
+    iconSize: [30, 30],
+    iconAnchor: [15, 30]
   })
 
   return (
@@ -93,4 +92,3 @@ const EarthquakeMap = () => {
 }
 
 export default EarthquakeMap
-
